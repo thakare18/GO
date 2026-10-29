@@ -9,7 +9,7 @@ func main() {
 	// fmt.Printf("Numbers have this data type: %T\n", numbers)
 	// fmt.Println("Length of the numbers", len(numbers))
 
-	numbers := make([]int, 3, 5) // using make function to create a slice with length 3 and capacity 5
+	// numbers := make([]int, 3, 5) // using make function to create a slice with length 3 and capacity 5
 	numbers = append(numbers, 4)
 	numbers = append(numbers, 4)
 	numbers = append(numbers, 4)
