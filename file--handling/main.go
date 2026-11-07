@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
 	"os"
 )
 
@@ -26,7 +25,7 @@ func main() {
 	// fmt.Println("Successfully crated a file")
 
 	// file read using io.utils : Read entire file into byte
-	content, err := ioutil.ReadFile("example.txt")
+	// content, err := ioutil.ReadFile("example.txt")
 	if err != nil {
 		fmt.Println("Error while reading the file", err)
 		return
